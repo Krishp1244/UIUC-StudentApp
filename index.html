@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="https://cdn.brand.illinois.edu/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.brand.illinois.edu/touch-icon-180x180.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UIUC Student Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    
+    <div class="logo">
+      <a href="https://illinois.edu" target="_blank">
+        <img src="https://cdn.glitch.global/09734320-6145-4c0a-b830-0d3617fb191c/University-of-Illinois.webp?v=1745932833022" alt="UIUC Logo" width="200">
+      </a>
+    </div>
+      
+    <section class="quote">
+      <h2 id="quoteText">"Quote"</h2>
+    </section>
+
+    <section class="weather">
+      <h3>Today's Weather</h3>
+      <div id="text2" class="info-box">Loading weather...</div>
+    </section>
+
+    <section class="schedule">
+  <h3>
+    <a href="https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options/cs-x-degree-programs/computer-science-linguistics" target="_blank" style="color: #005c99; text-decoration: none;">
+      Your Class Schedule
+    </a>
+  </h3>
+  
+  <button id="toggleScheduleBtn">Hide Schedule</button>
+  
+  <div id="scheduleData" class="info-box">class schedule</div>
+</section>
+
+
+    <section class="calendar">
+      <h3>UIUC Calendar</h3>
+      <button id="toggleButton" onclick="toggleCalendarView()">Show Full Year</button>
+      <div id="text5" class="info-box"></div>
+    </section>
+
+    
+
+  <script src="/client.js" defer></script>
+</body>
+</html>
+
+
+
+
